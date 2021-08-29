@@ -42,6 +42,7 @@
   </div>
 </nav>
 
+<section id="Hero">
 
 <div class="flex flex-col md:flex-row md:justify-between">
     <div class="flex justify-around md:hidden">
@@ -53,11 +54,11 @@
     Skyrocket<br>your business<br><span class="text-blue-600">to the clouds!</span>
   </h1>
 
-  <p class="mt-6 lg:mt-10 mb-8 text-center md:text-left xl:text-xl">
+  <p class="mt-6 lg:mt-10 mb-6 text-center md:text-left xl:text-xl">
     Surface Digital provides end-to-end<br>services to boost your revenue<br>with cutting-edge cloud tech.
   </p>
 
-  <a href="#" class="text-white text-lg xl:text-xl font-bold block md:flex text-center md:my-8 lg:my-10">
+  <a href="#Partners" class="text-white text-lg xl:text-xl font-bold block md:flex text-center md:my-8 lg:my-10">
       <div class="rounded-xl py-3 lg:py-4 px-10 lg:px-14 bg-blue-600 hover:bg-blue-500 transition duration-200 shadow-md">
           Get started
       </div>
@@ -71,9 +72,41 @@
     </div>
   </div>
 </div>
+</section>
 
-<br><br><br><br>
+<!-- Partners -->
+<section id="Partners" class="hidden sm:block mt-20">
+  <h1 class="text-center text-xl text-gray-400">
+    We are trusted by hundreads of companies
+  </h1>
+  <div class="flex justify-around items-center mt-6">
+    <div class="p-4"><img src="src/logos/Google.png"/></div>
+    <div class="p-4"><img src="src/logos/Airbnb.png"/></div>
+    <div class="p-4"><img src="src/logos/Microsoft.png"/></div>
+    <div class="p-4"><img src="src/logos/Walmart.png"/></div>
+    <div class="p-4"><img src="src/logos/Activision.png"/></div>
+  </div>
+</section>
 
+<!-- Partners-mobile -->
+<section id="Partners" class="mt-20 sm:hidden">
+  <h1 class="text-center text-lg text-gray-400">
+    Trusted by
+  </h1>
+  <div class="flex justify-around items-center mt-4">
+    <div class="p-3"><img src="src/logos/Airbnb.png"/></div>
+    <div class="p-3"><img src="src/logos/Google.png"/></div>
+    <div class="p-3"><img src="src/logos/Microsoft.png"/></div>
+  </div>
+  <div class="flex justify-around">
+  <div class="flex justify-around items-center w-3/4">
+    <div class="p-3"><img src="src/logos/Walmart.png"/></div>
+    <div class="p-3"><img src="src/logos/Activision.png"/></div>
+  </div>
+  </div>
+</section>
+
+<br><br><br><br><br><br>
 
 <script>
   const btn = document.querySelector("button.mobile-menu-button");
